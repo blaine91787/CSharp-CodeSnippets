@@ -39,8 +39,21 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
+    <Reference Include="Utilities">
+      <HintPath>..\Utilities\bin\Debug\Utilities.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="InterviewPrep\Arrays\Array2D_DS.cs" />
+    <Compile Include="InterviewPrep\Arrays\ArrayManipulation.cs" />
+    <Compile Include="InterviewPrep\Arrays\NewYearChaos.cs" />
+    <Compile Include="InterviewPrep\DictionariesAndHashmaps\RansomNote.cs" />
+    <Compile Include="InterviewPrep\DictionariesAndHashmaps\SherlockAndAnagrams.cs" />
+    <Compile Include="InterviewPrep\DictionariesAndHashmaps\TwoStrings.cs" />
+    <Compile Include="InterviewPrep\WarmUp\CountingValleys.cs" />
+    <Compile Include="InterviewPrep\WarmUp\JumpingOnTheClouds.cs" />
+    <Compile Include="InterviewPrep\WarmUp\RepeatedString.cs" />
+    <Compile Include="InterviewPrep\WarmUp\SockMerchant.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

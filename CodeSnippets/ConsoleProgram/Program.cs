@@ -1,4 +1,5 @@
-﻿using Math.Statistics;
+﻿using HackerRank.InterviewPrep.DictionariesAndHashmaps;
+using Math.Statistics;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,7 +12,7 @@ namespace ConsoleProgram
     {
         static void Main(string[] args)
         {
-            DirectionalStatistics.ExecuteTests();
+            TwoStrings.Execute();
             Console.ReadKey();
         }
     }

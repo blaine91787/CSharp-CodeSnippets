@@ -117,7 +117,7 @@ namespace Math.Statistics
             return theta * (System.Math.PI / 180);
         }
 
-        public static void ExecuteTests()
+        public static void Execute()
         {
             var test = new DirectionalStatistics();
 

@@ -12,7 +12,7 @@ namespace ConsoleProgram
     {
         static void Main(string[] args)
         {
-            TwoStrings.Execute();
+            SherlockAndAnagrams.Execute();
             Console.ReadKey();
         }
     }

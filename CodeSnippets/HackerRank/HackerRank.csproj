@@ -47,6 +47,7 @@
     <Compile Include="InterviewPrep\Arrays\Array2D_DS.cs" />
     <Compile Include="InterviewPrep\Arrays\ArrayManipulation.cs" />
     <Compile Include="InterviewPrep\Arrays\NewYearChaos.cs" />
+    <Compile Include="InterviewPrep\DictionariesAndHashmaps\CountTriplets.cs" />
     <Compile Include="InterviewPrep\DictionariesAndHashmaps\RansomNote.cs" />
     <Compile Include="InterviewPrep\DictionariesAndHashmaps\SherlockAndAnagrams.cs" />
     <Compile Include="InterviewPrep\DictionariesAndHashmaps\TwoStrings.cs" />
@@ -54,6 +55,7 @@
     <Compile Include="InterviewPrep\WarmUp\JumpingOnTheClouds.cs" />
     <Compile Include="InterviewPrep\WarmUp\RepeatedString.cs" />
     <Compile Include="InterviewPrep\WarmUp\SockMerchant.cs" />
+    <Compile Include="Mathematics\Fundamentals\FindThePoint.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

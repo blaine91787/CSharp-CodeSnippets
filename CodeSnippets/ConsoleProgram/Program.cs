@@ -1,4 +1,5 @@
 ﻿using HackerRank.InterviewPrep.DictionariesAndHashmaps;
+using HackerRank.Mathematics.Fundamentals;
 using Math.Statistics;
 using System;
 using System.Collections.Generic;
@@ -12,7 +13,8 @@ namespace ConsoleProgram
     {
         static void Main(string[] args)
         {
-            SherlockAndAnagrams.Execute();
+            CountTriplets.Execute();
+            //FindThePoint.Execute();
             Console.ReadKey();
         }
     }

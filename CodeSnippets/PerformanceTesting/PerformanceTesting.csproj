@@ -4,17 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{843BC513-A381-4D12-B078-3D464431D582}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>ConsoleProgram</RootNamespace>
-    <AssemblyName>ConsoleProgram</AssemblyName>
+    <ProjectGuid>{52A31997-9369-4B49-97BF-285359932D91}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PerformanceTesting</RootNamespace>
+    <AssemblyName>PerformanceTesting</AssemblyName>
     <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -24,7 +23,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -43,33 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="RandNumSingleThread.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Garbage\Garbage.csproj">
-      <Project>{ec82740d-0f50-4f76-bb4c-cdb72bf89272}</Project>
-      <Name>Garbage</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\HackerRank\HackerRank.csproj">
-      <Project>{a684fc0d-da94-4708-8cfe-8a84c59766a3}</Project>
-      <Name>HackerRank</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Math\Math.csproj">
-      <Project>{16b40b66-cfb5-449f-ad9e-967479d09014}</Project>
-      <Name>Math</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\PerformanceTesting\PerformanceTesting.csproj">
-      <Project>{52a31997-9369-4b49-97bf-285359932d91}</Project>
-      <Name>PerformanceTesting</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Utilities\Utilities.csproj">
-      <Project>{e7e80f4f-6b18-412f-96dc-52e74f3147d1}</Project>
-      <Name>Utilities</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

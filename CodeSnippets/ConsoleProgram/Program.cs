@@ -1,6 +1,7 @@
 ﻿using HackerRank.InterviewPrep.DictionariesAndHashmaps;
 using HackerRank.Mathematics.Fundamentals;
 using Math.Statistics;
+using PerformanceTesting;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,7 +14,7 @@ namespace ConsoleProgram
     {
         static void Main(string[] args)
         {
-            CountTriplets.Execute();
+            RandNumSingleThread.Execute();
             //FindThePoint.Execute();
             Console.ReadKey();
         }

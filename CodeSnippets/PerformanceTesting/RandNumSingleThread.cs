@@ -10,7 +10,7 @@ namespace PerformanceTesting
     public class RandNumSingleThread
     {
         #region Parameters
-        public Int32[] NumValues { get; set; } = new int[] { 10 };//, 100, 1000, 10000, 100000, 1000000, 10000000 };
+        public Int32[] NumValues { get; set; } = new int[] { 10, 100, 1000, 10000, 100000, 1000000, 10000000 };
         #endregion Parameters
 
         public RandNumSingleThread()

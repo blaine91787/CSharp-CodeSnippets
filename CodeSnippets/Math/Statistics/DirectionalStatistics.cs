@@ -176,6 +176,26 @@ namespace Math.Statistics
             };
 
             Console.WriteLine("Mean of [0.01, 360] = " + test.MeanOfAngles(angles, Units.Degrees));
+
+            angles = new List<Double>
+            {
+                45,
+                315
+            };
+
+            Console.WriteLine("Mean of [45, 315] = " + test.MeanOfAngles(angles, Units.Degrees));
+
+            angles = new List<Double>
+            {
+                0,
+                90,
+                180,
+                270
+            };
+
+            st = "[" + angles[0] + ", " + angles[1] + ", " + angles[2] + ", " + angles[3] + "]";
+
+            Console.WriteLine("Mean of " + st + " = " + test.MeanOfAngles(angles, Units.Degrees));
         }
     }
 }

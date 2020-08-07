@@ -68,7 +68,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Converters\BH_CDF_File.cs" />
     <Compile Include="Converters\CDFConverter.cs" />
     <Compile Include="Cryptography\HashComparer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

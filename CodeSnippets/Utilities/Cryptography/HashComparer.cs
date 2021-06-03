@@ -96,6 +96,36 @@ namespace Utilities.Cryptography
             File2 = null;
             _hashesComputed = false;
         }
+
+        public static void Execute()
+        {
+            var file1 = @"PATH_TO_FILE1";
+            var file2 = @"PATH_TO_FILE2";
+
+            try
+            {
+                Utilities.Cryptography.HashComparer comp = new Utilities.Cryptography.HashComparer();
+                Console.WriteLine("File1.Name = " + comp.File1.Fileinfo.Name);
+                Console.WriteLine("File1.Hash == " + comp.File1.HashString);
+                Console.WriteLine("File2.Name = " + comp.File2.Fileinfo.Name);
+                Console.WriteLine("File2.Hash == " + comp.File2.HashString);
+                Console.WriteLine("AreEqual == " + comp.AreEqual());
+
+                Console.WriteLine();
+
+                comp.AreEqual(file1, file2, "sha256");
+                Console.WriteLine("File1.Name = " + comp.File1.Fileinfo.Name);
+                Console.WriteLine("File1.Hash == " + comp.File1.HashString);
+                Console.WriteLine("File2.Name = " + comp.File2.Fileinfo.Name);
+                Console.WriteLine("File2.Hash == " + comp.File2.HashString);
+                Console.WriteLine("AreEqual == " + comp.AreEqual());
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message + "\n" + ex.StackTrace);
+            }
+            Console.ReadKey();
+        }
     }
 
     public class FileHash

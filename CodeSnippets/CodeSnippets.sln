@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilities", "Utilities\Util
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerformanceTesting", "PerformanceTesting\PerformanceTesting.csproj", "{52A31997-9369-4B49-97BF-285359932D91}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataStructures", "DataStructures\DataStructures.csproj", "{5DB13B82-27E0-4815-B24E-73E2110991BF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSV", "CSV\CSV.csproj", "{BD64A106-89F6-4023-B586-4E1E9E804D78}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -79,6 +83,22 @@ Global
 		{52A31997-9369-4B49-97BF-285359932D91}.Release|Any CPU.Build.0 = Release|Any CPU
 		{52A31997-9369-4B49-97BF-285359932D91}.Release|x64.ActiveCfg = Release|x64
 		{52A31997-9369-4B49-97BF-285359932D91}.Release|x64.Build.0 = Release|x64
+		{5DB13B82-27E0-4815-B24E-73E2110991BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DB13B82-27E0-4815-B24E-73E2110991BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DB13B82-27E0-4815-B24E-73E2110991BF}.Debug|x64.ActiveCfg = Debug|x64
+		{5DB13B82-27E0-4815-B24E-73E2110991BF}.Debug|x64.Build.0 = Debug|x64
+		{5DB13B82-27E0-4815-B24E-73E2110991BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DB13B82-27E0-4815-B24E-73E2110991BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DB13B82-27E0-4815-B24E-73E2110991BF}.Release|x64.ActiveCfg = Release|x64
+		{5DB13B82-27E0-4815-B24E-73E2110991BF}.Release|x64.Build.0 = Release|x64
+		{BD64A106-89F6-4023-B586-4E1E9E804D78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD64A106-89F6-4023-B586-4E1E9E804D78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD64A106-89F6-4023-B586-4E1E9E804D78}.Debug|x64.ActiveCfg = Debug|x64
+		{BD64A106-89F6-4023-B586-4E1E9E804D78}.Debug|x64.Build.0 = Debug|x64
+		{BD64A106-89F6-4023-B586-4E1E9E804D78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD64A106-89F6-4023-B586-4E1E9E804D78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD64A106-89F6-4023-B586-4E1E9E804D78}.Release|x64.ActiveCfg = Release|x64
+		{BD64A106-89F6-4023-B586-4E1E9E804D78}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

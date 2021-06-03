@@ -13,11 +13,6 @@ namespace PerformanceTesting
         public Int32[] NumValues { get; set; } = new int[] { 10, 100, 1000, 10000, 100000, 1000000, 10000000 };
         #endregion Parameters
 
-        public RandNumSingleThread()
-        {
-
-        }
-
         public void Run()
         {
             Stopwatch sw = new Stopwatch();

@@ -72,6 +72,14 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\CSV\CSV.csproj">
+      <Project>{BD64A106-89F6-4023-B586-4E1E9E804D78}</Project>
+      <Name>CSV</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataStructures\DataStructures.csproj">
+      <Project>{5db13b82-27e0-4815-b24e-73e2110991bf}</Project>
+      <Name>DataStructures</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Garbage\Garbage.csproj">
       <Project>{ec82740d-0f50-4f76-bb4c-cdb72bf89272}</Project>
       <Name>Garbage</Name>
